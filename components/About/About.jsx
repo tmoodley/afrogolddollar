@@ -19,13 +19,13 @@ const About = () => {
               data-wow-delay=".2s"
             >
               <div className="section-title section-title-two mb-15">
-                <span className="sub-title">ABOUT Crypto ICO</span>
+                <span className="sub-title">ABOUT Gold Backed Utility Token</span>
                 <h2 className="title">
-                  GN Mining is the best for your ICO
+                  GN Mining is the best for your Utilty Token
                 </h2>
               </div>
               <p>
-                Africa’s 1st Utility Token That Offers Rewards.
+                Africa’s 1st Gold Backed Utility Token That Offers a 12% APY.
               </p>
               <div className="about-list">
                 <ul>

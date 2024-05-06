@@ -19,13 +19,13 @@ const DownloadArea = () => {
               data-wow-delay=".2s"
             >
               <div className="section-title section-title-two mb-20">
-                <span className="sub-title">Download ICO App</span>
+                <span className="sub-title">Download Gold backed Utility Token App</span>
                 <h2 className="title">
-                  You can treding, control, buy and sell from your mobile
+                  You can buy and sell from your mobile device
                 </h2>
               </div>
               <p>
-                Africa’s 1st ICO Platform That Offers Rewards and The
+                Africa’s 1st Gold Backed Utility Token That Offers a 12% APY and The
                 platform helps investors to make easy
               </p>
               <div className="download-btn">

@@ -28,7 +28,7 @@ const Banner = () => {
             <div className="banner-content text-center">
               <img src={"/img/icon/fire.png"} alt="" />
               <h2 className="title">
-                Join Future of Algorithmic <span>Crypto</span> Trading
+                Join Future of African Gold-back Utility Token <span>Crypto</span> Trading
                 Strategies
               </h2>
             </div>
@@ -49,7 +49,7 @@ const Banner = () => {
                 />
               </div>
               <h4 className="title">
-                65% target raised <span>1 ETH = $1000 = 3177.38 CIC</span>
+                10% target raised <span>1 USDC = $2300 = 2300 AfroDollars</span>
               </h4>
             </div>
           </div>

@@ -25,7 +25,7 @@ const WhoWeAre = () => {
                 </h2>
               </div>
               <p>
-                Africa’s 1st Utility Token That Offers Rewards and The
+                Gold Backed Utility Token That Offers a 12% APY and The
                 platform helps investors to make easy to purchase and sell their
                 tokens
               </p>

@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Bigtech - ICO & Crypto Landing Page Template</title>
+        <title>GN Mining - Gold backed Utility Token & Crypto</title>
         <meta name="description" content="" />
       </Head>
 
