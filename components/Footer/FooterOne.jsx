@@ -139,7 +139,7 @@ const FooterOne = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="copyright-text">
-                  <p>Copyright &copy; 2022. All Rights Reserved Bigtech</p>
+                  <p>Copyright &copy; 2024. All Rights Reserved GN Mining</p>
                 </div>
               </div>
               <div className="col-lg-6 d-none d-sm-block">
