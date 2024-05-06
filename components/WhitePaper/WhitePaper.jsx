@@ -23,13 +23,13 @@ const WhitePaper = () => {
               <div className="section-title mb-35">
                 <span className="sub-title">Whitepaper</span>
                 <h2 className="title">
-                  Read Bigtech <span>Documents</span>
+                  Read GN Mining <span>Documents</span>
                 </h2>
               </div>
 
               <ul className="document-list">
                 <li>White Paper</li>
-                <li>Privaci & Policy</li>
+                <li>Privacy & Policy</li>
                 <li>Terms Of Coin Sale</li>
                 <li>One Pager</li>
               </ul>
