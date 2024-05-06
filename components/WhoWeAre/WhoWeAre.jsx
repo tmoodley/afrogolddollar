@@ -21,7 +21,7 @@ const WhoWeAre = () => {
               <div className="section-title mb-30">
                 <span className="sub-title">Who we are</span>
                 <h2 className="title">
-                  Africa’s <span>1st ICO</span> Platform That Offers Rewards
+                  Africa’s <span>1st Gold Back Utility Token</span> that offers a 12% APY.
                 </h2>
               </div>
               <p>
