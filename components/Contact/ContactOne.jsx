@@ -41,7 +41,7 @@ const ContactOne = () => {
             <div className="section-title text-center mb-70">
               <span className="sub-title">Contact</span>
               <h2 className="title">
-                <span>Contact</span> ICO Crypto
+                <span>Contact</span> GN Mining
               </h2>
             </div>
           </div>
