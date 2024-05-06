@@ -96,8 +96,7 @@ const FooterThree = () => {
                   <h4 className="fw-title">Subscribe Newsletter</h4>
                   <div className="footer-newsletter">
                     <p>
-                      Exerci tation ullamcorper suscipit lobortis nisl aliquip
-                      ex ea commodo
+                     Subscribe to our newsletter and receive the latest updates.
                     </p>
                     <form action="#">
                       <input type="email" placeholder="Info@gmail.com" />
