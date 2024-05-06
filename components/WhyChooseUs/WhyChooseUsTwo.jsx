@@ -36,7 +36,7 @@ const WhyChooseUsTwo = () => {
           <div className="col-lg-6">
             <div className="section-title text-center mb-70">
               <span className="sub-title">why Choose us</span>
-              <h2 className="title">Why you choose our bigtech Token</h2>
+              <h2 className="title">Why you choose our Gold Backed Utility Token</h2>
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ export default function HomeTwo() {
   return (
     <>
       <Head>
-        <title>Bigtech - ICO & Crypto Landing Page Template</title>
+        <title>GN Mining - Gold Backed Utility Token</title>
         <meta name="description" content="" />
       </Head>
 

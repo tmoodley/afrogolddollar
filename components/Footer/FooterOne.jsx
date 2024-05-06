@@ -24,12 +24,12 @@ const FooterOne = () => {
                   data-wow-delay=".2s"
                 >
                   <Link href="/" className="f-logo">
-                    <img src={"/img/logo/logo.png"} alt="BigTech Logo" />
+                    <img src={"/img/logo/logo.png"} alt="GN Mining Logo" />
                   </Link>
                   <div className="footer-content">
                     <p>
                       A new way to make the payments easy, reliable and 100%
-                      secure. claritatem itamconse quat. Exerci tationulla
+                      secure. 
                     </p>
                     <ul className="footer-social">
                       <li>

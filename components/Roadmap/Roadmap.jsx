@@ -82,7 +82,7 @@ const Roadmap = () => {
             <div className="section-title text-center mb-60">
               <span className="sub-title">OUr Roadmap</span>
               <h2 className="title">
-                Bigtech Strategy and <br /> Project <span>Plan</span>
+                GN Mining Strategy and <br /> Project <span>Plan</span>
               </h2>
             </div>
           </div>
