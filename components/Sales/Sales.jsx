@@ -58,7 +58,7 @@ const Sales = () => {
                     className={"show active"}
                     id="funding"
                     ariaLabel="funding-tab"
-                    title="1 CNL = 0.0863 BTC"
+                    title="1 AfroDollar = 1 Ounce of Gold"
                     description=" Gold Backed Utility Token That Offers a 12% APY and The
                     platform helps investors make it easy to purchase and
                     sell their tokens"
@@ -69,7 +69,7 @@ const Sales = () => {
                     className={""}
                     id="token"
                     ariaLabel="token-tab"
-                    title="2 CNL = 0.0967 BTC"
+                    title="1 AfroDollar = $2300 USDC"
                     description=" Gold Backed Utility Token That Offers a 12% APY and The
                     platform helps investors to make easy to purchase and
                     sell their tokens"
