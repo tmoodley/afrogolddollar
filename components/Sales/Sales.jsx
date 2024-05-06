@@ -59,8 +59,8 @@ const Sales = () => {
                     id="funding"
                     ariaLabel="funding-tab"
                     title="1 CNL = 0.0863 BTC"
-                    description=" The World’s 1st ICO Platform That Offers Rewards and The
-                    platform helps investors to make easy to purchase and
+                    description=" Africa’s 1st Utility Token That Offers Rewards and The
+                    platform helps investors make it easy to purchase and
                     sell their tokens"
                     link="/"
                   />
@@ -70,7 +70,7 @@ const Sales = () => {
                     id="token"
                     ariaLabel="token-tab"
                     title="2 CNL = 0.0967 BTC"
-                    description=" The World’s 1st ICO Platform That Offers Rewards and The
+                    description=" Africa’s 1st Utility Token That Offers Rewards and The
                     platform helps investors to make easy to purchase and
                     sell their tokens"
                     link="/"

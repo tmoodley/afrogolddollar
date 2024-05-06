@@ -25,7 +25,7 @@ const DownloadArea = () => {
                 </h2>
               </div>
               <p>
-                The World’s 1st ICO Platform That Offers Rewards and The
+                Africa’s 1st ICO Platform That Offers Rewards and The
                 platform helps investors to make easy
               </p>
               <div className="download-btn">

@@ -21,22 +21,19 @@ const About = () => {
               <div className="section-title section-title-two mb-15">
                 <span className="sub-title">ABOUT Crypto ICO</span>
                 <h2 className="title">
-                  Bigtech Theme is the best for your ICO
+                  GN Mining is the best for your ICO
                 </h2>
               </div>
               <p>
-                The World’s 1st ICO Platform That Offers Rewards and The
-                platform helps investors to make easy
+                Africa’s 1st Utility Token That Offers Rewards.
               </p>
               <div className="about-list">
                 <ul>
                   <li>
-                    <i className="fas fa-check"></i>Mouthwatering leading how
-                    real formula also
+                    <i className="fas fa-check"></i>Earn 12% APY by investing in AfroDollars
                   </li>
                   <li>
-                    <i className="fas fa-check"></i>Locked-in have can mountain
-                    thought
+                    <i className="fas fa-check"></i>Simply invest USDC and start earning!
                   </li>
                 </ul>
               </div>
