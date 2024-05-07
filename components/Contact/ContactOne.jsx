@@ -8,7 +8,7 @@ const ContactOne = () => {
       icon: "fa-envelope",
       content: (
         <>
-          company@gmail.com <br /> infoweb@gmail.com
+          info@gn-mining.com
         </>
       ),
     },
@@ -16,8 +16,7 @@ const ContactOne = () => {
       icon: "fa-phone",
       content: (
         <>
-          +84 0977425031
-          <br /> +998 765 775 34
+          +260-211-272-662
         </>
       ),
     },
@@ -25,8 +24,7 @@ const ContactOne = () => {
       icon: "fa-map-marker-alt",
       content: (
         <>
-          State/province/area: <br />
-          Georgia 198
+          Plot No. 202 Makeni P.O Box 35473, Lusaka - Zambia
         </>
       ),
     },
