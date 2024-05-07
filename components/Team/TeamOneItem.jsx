@@ -10,25 +10,10 @@ const TeamOneItem = (props) => {
         <h2 className="title">{props.item.name}</h2>
         <span>{props.item.designation}</span>
 
-        <ul className="team-social">
+        <ul className="team-social">  
           <li>
-            <a href="/">
-              <i className="fab fa-youtube"></i>
-            </a>
-          </li>
-          <li>
-            <a href="/">
-              <i className="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a href="/">
-              <i className="fab fa-facebook-f"></i>
-            </a>
-          </li>
-          <li>
-            <a href="/">
-              <i className="fab fa-instagram"></i>
+            <a href="{props.item.linkedin}">
+              <i className="fab fa-linkedin"></i>
             </a>
           </li>
         </ul>
