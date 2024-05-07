@@ -5,44 +5,24 @@ const TeamOne = () => {
   const team_members = [
     {
       src: "/img/team/team_img01.png",
-      name: "Cameron Williamson",
-      designation: "Founder & CO",
+      name: "Gordon Nathanson",
+      designation: "Founder & CEO",
     },
     {
       src: "/img/team/team_img02.png",
-      name: "Eleanor Pena",
-      designation: "Head of Design",
+      name: "Salim Eceoloza",
+      designation: "CFO",
     },
     {
       src: "/img/team/team_img03.png",
-      name: "Bessie Cooper",
-      designation: "Vp People",
+      name: "Tyrone Moodley",
+      designation: "CTO",
     },
     {
       src: "/img/team/team_img04.png",
-      name: "Darlene Robertson",
-      designation: "Product Manager",
-    },
-    {
-      src: "/img/team/team_img05.png",
-      name: "Jacob Jones",
-      designation: "Marketer",
-    },
-    {
-      src: "/img/team/team_img06.png",
-      name: "Courtney Henry",
-      designation: "Founder",
-    },
-    {
-      src: "/img/team/team_img07.png",
-      name: "Ronald Richards",
-      designation: "Account Manager",
-    },
-    {
-      src: "/img/team/team_img08.png",
-      name: "Theresa Webb",
-      designation: "Founder & CO",
-    },
+      name: "Alexander Munro",
+      designation: "COO",
+    },    
   ];
 
   return (
