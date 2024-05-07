@@ -12,7 +12,7 @@ const TeamOneItem = (props) => {
 
         <ul className="team-social">  
           <li>
-            <a href="{props.item.linkedin}">
+            <a href={props.item.linkedin}>
               <i className="fab fa-linkedin"></i>
             </a>
           </li>
