@@ -31,7 +31,7 @@ const FooterOne = () => {
                       A new way to make the payments easy, reliable and 100%
                       secure. 
                     </p>
-                    <ul className="footer-social">
+                    {/* <ul className="footer-social">
                       <li>
                         <a href="#">
                           <i className="fab fa-youtube"></i>
@@ -52,7 +52,7 @@ const FooterOne = () => {
                           <i className="fab fa-skype"></i>
                         </a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
               </div>
@@ -61,7 +61,7 @@ const FooterOne = () => {
                   className="footer-widget  wow fadeInUp"
                   data-wow-delay=".4s"
                 >
-                  <h4 className="fw-title">Useful Links</h4>
+                  {/* <h4 className="fw-title">Useful Links</h4>
                   <div className="footer-link">
                     <ul>
                       <li>
@@ -80,7 +80,7 @@ const FooterOne = () => {
                         <Link href="/">Terms & Services</Link>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-xl-2 col-lg-3 col-sm-6">
@@ -88,9 +88,9 @@ const FooterOne = () => {
                   className="footer-widget wow fadeInUp"
                   data-wow-delay=".6s"
                 >
-                  <h4 className="fw-title">Community</h4>
+                 {/* <h4 className="fw-title">Community</h4>
                   <div className="footer-link">
-                    <ul>
+                     <ul>
                       <li>
                         <Link href="/">Help Center</Link>
                       </li>
@@ -106,8 +106,8 @@ const FooterOne = () => {
                       <li>
                         <Link href="/">Newsletters</Link>
                       </li>
-                    </ul>
-                  </div>
+                    </ul> 
+                  </div>*/}
                 </div>
               </div>
               <div className="col-xl-4 col-lg-4 col-md-6">
@@ -123,7 +123,7 @@ const FooterOne = () => {
                     <form action="#">
                       <input
                         type="email"
-                        placeholder="Info@gmail.com"
+                        placeholder="Info@gn-mining.com"
                         required
                       />
                       <button type="submit">
