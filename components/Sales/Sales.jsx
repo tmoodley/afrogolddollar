@@ -4,12 +4,8 @@ import SalesTabContent from "./SalesTabContent";
 
 const Sales = () => {
   const chart_info_list = [
-    "Contingency: 70%",
-    "Business Development: 10%",
-    "Investor: 30%",
-    "Poland",
-    "Legal & Regulation:10%",
-    "Czech Republic",
+    "Bitcoin: 70%",
+    "Gold: 30%"
   ];
 
   return (
@@ -60,7 +56,7 @@ const Sales = () => {
                     ariaLabel="funding-tab"
                     title="1 NdeipiCoin = 1 Ndeipi Share"
                     description=" Backed by 70% Bitcoin : 30% Gold pegged to the Ndeipi Stock on several African Stock Exchanges listing soon."
-                    link="/"
+                    link="https://opensea.io/ndeipi"
                   />
 
                   <SalesTabContent
@@ -69,7 +65,7 @@ const Sales = () => {
                     ariaLabel="token-tab"
                     title="1 NdeipiCoin = $7.95"
                     description=" Our Pre-Token Sale starting at $7.95"
-                    link="/"
+                    link="https://opensea.io/ndeipi"
                   />
                 </div>
               </div>

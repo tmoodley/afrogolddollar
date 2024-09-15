@@ -184,21 +184,12 @@ const HeaderOne = () => {
                         <span className={"selected-lang"}>ENG</span>
                         <ul className={"lang-list"}>
                           <li>
-                            <Link href="#">IND</Link>
-                          </li>
-                          <li>
-                            <Link href="#">BNG</Link>
-                          </li>
-                          <li>
-                            <Link href="#">TUR</Link>
-                          </li>
-                          <li>
-                            <Link href="#">CIN</Link>
+                            <Link href="#">FRE</Link>
                           </li>
                         </ul>
                       </li>
                       <li className={"header-btn"}>
-                        <Link href="#" className="btn">
+                        <Link href="https://opensea.io/ndeipi" className="btn">
                           Buy Now
                         </Link>
                       </li>
