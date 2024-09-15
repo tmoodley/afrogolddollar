@@ -152,21 +152,6 @@ const HeaderOne = () => {
                           Roadmap
                         </Link>
                       </li>
-                      <li className={"menu-item-has-children"}>
-                        <Link href="/blog">Blog</Link>
-                        <ul className={cn("sub-menu")}>
-                          <li className={cn(pathname == "/blog" && "active")}>
-                            <Link href="/blog">Our Blog</Link>
-                          </li>
-                          <li
-                            className={cn(
-                              pathname == "/blog/blog-details" && "active"
-                            )}
-                          >
-                            <Link href="/blog/blog-details">Blog Details</Link>
-                          </li>
-                        </ul>
-                      </li>
                       <li className={isActiveLink("#contact")}>
                         <Link
                           href="#contact"
