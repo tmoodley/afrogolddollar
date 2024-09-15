@@ -34,7 +34,7 @@ const WhitePaper = () => {
                 <li>One Pager</li>
               </ul>
 
-              <Link href="/" className="btn">
+              <Link href="/NdeipiCoin_White_Paper.pdf" className="btn">
                 Download Doc
               </Link>
             </div>
