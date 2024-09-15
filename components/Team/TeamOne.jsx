@@ -2,31 +2,18 @@ import React from "react";
 import TeamOneItem from "./TeamOneItem";
 
 const TeamOne = () => {
-  const team_members = [
-    {
-      src: "/img/team/team_img01.png",
-      name: "Gordon Nathanson",
-      designation: "Founder & CEO",
-      linkedin: "https://www.linkedin.com/in/gordon-nathanson-906a4024/"
-    },
-    {
-      src: "/img/team/team_img02.png",
-      name: "Salim Eceoloza",
-      designation: "CFO",
-      linkedin: "https://www.linkedin.com/in/salim-eceolaza-03a10259/",
-      twitter: "https://twitter.com/SalimEceolaza"
-    },
+  const team_members = [   
     {
       src: "/img/team/team_img03.png",
       name: "Tyrone Moodley",
-      designation: "CTO",
+      designation: "CEO",
       linkedin: "https://www.linkedin.com/in/tymoodley/",
       twitter: "https://twitter.com/tmoodley"
-    },
+    }, 
     {
       src: "/img/team/team_img04.png",
       name: "Alexander Munro",
-      designation: "COO",
+      designation: "CFO",
       linkedin: "https://www.linkedin.com/in/aimunro/",
       twitter: "https://twitter.com/DDLN_tech"
     },    
