@@ -28,7 +28,7 @@ const Banner = () => {
             <div className="banner-content text-center">
               <img src={"/img/icon/fire.png"} alt="" />
               <h2 className="title">
-                Join Future of African Gold-back Utility Token <span>Crypto</span> Trading
+                Join Future of African Bitcoin/Gold-back Utility Token <span>Crypto</span> Trading
                 Strategies
               </h2>
             </div>
@@ -42,14 +42,14 @@ const Banner = () => {
                 <div
                   className="progress-bar"
                   role="progressbar"
-                  style={{ width: "75%" }}
-                  aria-valuenow="75"
+                  style={{ width: "1%" }}
+                  aria-valuenow="1"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 />
               </div>
               <h4 className="title">
-                10% target raised <span>1 USDC = $2300 = 2300 AfroDollars</span>
+                1% target raised <span>1 NdeipiCoin = $7.95</span>
               </h4>
             </div>
           </div>
