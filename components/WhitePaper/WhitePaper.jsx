@@ -23,7 +23,7 @@ const WhitePaper = () => {
               <div className="section-title mb-35">
                 <span className="sub-title">Whitepaper</span>
                 <h2 className="title">
-                  Read GN Mining <span>Documents</span>
+                  Read NdeipiCoin <span>Documents</span>
                 </h2>
               </div>
 

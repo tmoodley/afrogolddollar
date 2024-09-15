@@ -39,7 +39,7 @@ const ContactOne = () => {
             <div className="section-title text-center mb-70">
               <span className="sub-title">Contact</span>
               <h2 className="title">
-                <span>Contact</span> GN Mining
+                <span>Contact</span> NdeipiCoin
               </h2>
             </div>
           </div>

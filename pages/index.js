@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>GN Mining - Gold backed Utility Token & Crypto</title>
+        <title>NdeipiCoin - Gold backed Utility Token & Crypto</title>
         <meta name="description" content="" />
       </Head>
 

@@ -95,7 +95,7 @@ const HeaderOne = () => {
                 <nav className={"menu-nav"}>
                   <div className="logo">
                     <Link href={"/"}>
-                      <img src={"/img/logo/logo.png"} alt="GN Mining Logo" />
+                      <img src={"/img/logo/logo.png"} alt="NdeipiCoin Logo" />
                     </Link>
                   </div>
 
@@ -217,7 +217,7 @@ const HeaderOne = () => {
                     <Link href="/">
                       <img
                         src={"/img/logo/logo.png"}
-                        alt="GN Mining Logo"
+                        alt="NdeipiCoin Logo"
                         title=""
                       />
                     </Link>

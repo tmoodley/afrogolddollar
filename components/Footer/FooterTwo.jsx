@@ -59,7 +59,7 @@ const FooterTwo = () => {
             <div className="row">
               <div className="col-lg-5">
                 <div className="copyright-text">
-                  <p>Copyright &copy; 2024. All Rights Reserved GN Mining</p>
+                  <p>Copyright &copy; 2024. All Rights Reserved NdeipiCoin</p>
                 </div>
               </div>
               <div className="col-lg-2">

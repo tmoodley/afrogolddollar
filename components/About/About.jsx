@@ -21,7 +21,7 @@ const About = () => {
               <div className="section-title section-title-two mb-15">
                 <span className="sub-title">ABOUT Gold Backed Utility Token</span>
                 <h2 className="title">
-                  GN Mining is the best for your Utilty Token
+                  NdeipiCoin is the best for your Utilty Token
                 </h2>
               </div>
               <p>
