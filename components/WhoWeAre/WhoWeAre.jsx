@@ -21,15 +21,15 @@ const WhoWeAre = () => {
               <div className="section-title mb-30">
                 <span className="sub-title">Who we are</span>
                 <h2 className="title">
-                  Africa’s <span>1st Gold Back Utility Token</span> that offers a 12% APY.
+                  Africa’s <span>1st Bitcoin Gold Backed Utility Token</span> that's pegged to Ndeipi Stock.
                 </h2>
               </div>
               <p>
-                Gold Backed Utility Token That Offers a 12% APY and The
+                Bitcoin Gold Backed Utility Token That's pegged to Ndeipi Stock and The
                 platform helps investors to make easy to purchase and sell their
                 tokens
               </p>
-              <Link href="/" className="btn">
+              <Link href="https://opensea.io/ndeipi" className="btn">
                 Purchase Tokens
               </Link>
             </div>
