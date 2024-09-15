@@ -123,7 +123,7 @@ const FooterOne = () => {
                     <form action="#">
                       <input
                         type="email"
-                        placeholder="Info@gn-mining.com"
+                        placeholder="Info@ndeipicoin.com"
                         required
                       />
                       <button type="submit">

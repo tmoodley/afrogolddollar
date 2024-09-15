@@ -8,7 +8,7 @@ const ContactOne = () => {
       icon: "fa-envelope",
       content: (
         <>
-          info@gn-mining.com
+          info@ndeipicoin.com
         </>
       ),
     },
@@ -16,7 +16,7 @@ const ContactOne = () => {
       icon: "fa-phone",
       content: (
         <>
-          +260-211-272-662
+          +1-226-698-5643
         </>
       ),
     },
@@ -24,7 +24,7 @@ const ContactOne = () => {
       icon: "fa-map-marker-alt",
       content: (
         <>
-          Plot No. 202 Makeni P.O Box 35473, Lusaka - Zambia
+          9 Nangwenya Rd, Lusaka, Zambia
         </>
       ),
     },
