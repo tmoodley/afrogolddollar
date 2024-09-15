@@ -149,15 +149,7 @@ const HeaderOne = () => {
                     </ul>
                   </div>
                   <div className={cn("header-action", "d-none d-md-block")}>
-                    <ul>
-                      <li className={"header-lang"}>
-                        <span className={"selected-lang"}>ENG</span>
-                        <ul className={"lang-list"}>
-                          <li>
-                            <Link href="#">FRE</Link>
-                          </li>
-                        </ul>
-                      </li>
+                    <ul> 
                       <li className={"header-btn"}>
                         <Link href="https://opensea.io/ndeipi" className="btn">
                           Buy Now
@@ -191,27 +183,27 @@ const HeaderOne = () => {
                   <div className={"social-links"}>
                     <ul className="clearfix">
                       <li>
-                        <a href="#">
+                        <a href="https://www.facebook.com/ndeipicoin/">
                           <i className="fab fa-facebook-f"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://www.x.com/ndeipicoin/">
                           <i className="fab fa-twitter"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/ndeipicoin/">
                           <i className="fab fa-instagram"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://www.linkedin.com/company/ndeipicoin">
                           <i className="fab fa-linkedin-in"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://www.youtube.com/@NdeipiCoin">
                           <i className="fab fa-youtube"></i>
                         </a>
                       </li>
