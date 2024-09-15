@@ -103,7 +103,7 @@ const HeaderOne = () => {
                     <ul className={"navigation"}>
                       <li className={cn(hash == "home" && "active")}>
                         <Link
-                          href="#home"
+                          href="/"
                           className={"section-link"}
                           onClick={() => handleClickScroll("home")}
                         >
