@@ -58,10 +58,8 @@ const Sales = () => {
                     className={"show active"}
                     id="funding"
                     ariaLabel="funding-tab"
-                    title="1 AfroDollar = 1 Ounce of Gold"
-                    description=" Gold Backed Utility Token That Offers a 12% APY and The
-                    platform helps investors make it easy to purchase and
-                    sell their tokens"
+                    title="1 NdeipiCoin = 1 Ndeipi Share"
+                    description=" Backed by 70% Bitcoin : 30% Gold pegged to the Ndeipi Stock on several African Stock Exchanges listing soon."
                     link="/"
                   />
 
@@ -69,10 +67,8 @@ const Sales = () => {
                     className={""}
                     id="token"
                     ariaLabel="token-tab"
-                    title="1 AfroDollar = $2300 USDC"
-                    description=" Gold Backed Utility Token That Offers a 12% APY and The
-                    platform helps investors to make easy to purchase and
-                    sell their tokens"
+                    title="1 NdeipiCoin = $7.95"
+                    description=" Our Pre-Token Sale starting at $7.95"
                     link="/"
                   />
                 </div>
