@@ -19,18 +19,18 @@ const About = () => {
               data-wow-delay=".2s"
             >
               <div className="section-title section-title-two mb-15">
-                <span className="sub-title">ABOUT Gold Backed Utility Token</span>
+                <span className="sub-title">ABOUT Bitcoin Gold Backed Utility Token</span>
                 <h2 className="title">
                   NdeipiCoin is the best for your Utilty Token
                 </h2>
               </div>
               <p>
-                Africa’s 1st Gold Backed Utility Token That Offers a 12% APY.
+                Africa’s 1st Bitcoin Gold Backed Utility Token That's pegged to Ndeipi Stock.
               </p>
               <div className="about-list">
                 <ul>
                   <li>
-                    <i className="fas fa-check"></i>Earn 12% APY by investing in AfroDollars
+                    <i className="fas fa-check"></i>Collateralized loans at 5% Token value in Afro Gold Dollar Stablecoin.
                   </li>
                   <li>
                     <i className="fas fa-check"></i>Simply invest USDC and start earning!
