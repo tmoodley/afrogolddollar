@@ -6,12 +6,7 @@ const TopPartners = () => {
     { src: "/img/partner/partner_img02.png", title: "" },
     { src: "/img/partner/partner_img03.png", title: "" },
     { src: "/img/partner/partner_img04.png", title: "" },
-    { src: "/img/partner/partner_img05.png", title: "" },
-    { src: "/img/partner/partner_img06.png", title: "" },
-    { src: "/img/partner/partner_img07.png", title: "" },
-    { src: "/img/partner/partner_img08.png", title: "" },
-    { src: "/img/partner/partner_img09.png", title: "" },
-    { src: "/img/partner/partner_img10.png", title: "" },
+    { src: "/img/partner/partner_img05.png", title: "" }, 
   ];
 
   return (
@@ -20,7 +15,7 @@ const TopPartners = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="section-title text-center mb-10">
-              <span className="sub-title">Our top partner</span>
+              <span className="sub-title">Our partners</span>
             </div>
           </div>
         </div>
