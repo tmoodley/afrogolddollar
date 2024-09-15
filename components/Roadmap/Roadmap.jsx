@@ -5,69 +5,75 @@ import RoadmapItem from "./RoadmapItem";
 const Roadmap = () => {
   const roadmap_items = [
     {
-      roadmapTitle: "Mid of Q4 2021",
-      title: "Concept",
+      roadmapTitle: "Q4 2023",
+      title: "Concept Development",
       info: [
-        "EVM support for parthians",
-        "SubQuery Academy",
-        "Proof of indexing",
+        "Finalize NdeipiCoin's tokenomics",
+        "Secure partnerships with Dandelion Blockchain",
+        "Outline integration with Ndeipi App and stock exchange",
       ],
     },
     {
-      roadmapTitle: "Mid of Q4 2021",
-      title: "Research",
+      roadmapTitle: "Q4 2023",
+      title: "Initial Research and Partnerships",
       info: [
-        "SubQuery Builders/Grants Program",
-        "SQT Network contract internal MVP",
-        "Coordinator and client SDK",
-      ],
-    },
-
-    {
-      roadmapTitle: "Mid of Q4 2021",
-      title: "App beta test",
-      info: [
-        "Public testnet launch",
-        "SubQuery Network Explorer and dApp",
-        "Point-in-time indexing",
-      ],
-    },
-
-    {
-      roadmapTitle: "Mid of Q4 2021",
-      title: "Token Test",
-      info: [
-        "SQT token generation event",
-        "Public incentivize testnet launch",
-        "Data traffic insights and reporting",
+        "Establish strategic partnerships with CoinChange.io for staking",
+        "Integrate with Ark Holding's banking services",
+        "Secure licensing and regulatory compliance for NdeipiCoin",
       ],
     },
     {
-      roadmapTitle: "Mid of Q4 2021",
-      title: "Alpha Test",
+      roadmapTitle: "Q1 2024",
+      title: "Platform Development and Testing",
       info: [
-        "Launch of the SubQuery Foundation",
-        "Finalise research for other Layer-1 chains",
-        "Liquidity mining program",
+        "Launch private beta of Ndeipi App with NdeipiCoin support",
+        "Start NdeipiCoin pre-token sale for early investors",
+        "Develop staking mechanism and rewards system",
       ],
     },
     {
-      roadmapTitle: "Mid of Q4 2021",
-      title: "Benefits",
+      roadmapTitle: "Q1 2024",
+      title: "Public Beta Launch",
       info: [
-        "Mainnet launch",
-        "Centralized exchange launch",
-        "Public incentivize testnet",
+        "Launch NdeipiCoin public sale on exchange",
+        "Introduce tokenized shares of Ndeipi stock",
+        "Enable borrowing against NdeipiCoin holdings via Ark Holding",
       ],
     },
     {
-      roadmapTitle: "Mid of Q4 2021",
-      title: "Operational",
+      roadmapTitle: "Q2 2024",
+      title: "Expansion and User Acquisition",
       info: [
-        <>
-          SubQuery launches its <br /> own parthian
-        </>,
-        "SubQuery Foundation",
+        "Expand NdeipiCoin adoption across Zimbabwe, South Africa, and Zambia",
+        "Launch major marketing campaign to drive user growth",
+        "Roll out full NdeipiCoin features, including P2P transfers",
+      ],
+    },
+    {
+      roadmapTitle: "Q3 2024",
+      title: "Global Expansion",
+      info: [
+        "Integrate NdeipiCoin with more global exchanges",
+        "Enable cross-border remittances using NdeipiCoin",
+        "Expand partnership network to include international banks and businesses",
+      ],
+    },
+    {
+      roadmapTitle: "Q4 2024",
+      title: "Halal-Compliant Financial Services",
+      info: [
+        "Launch NdeipiCoin halal-friendly investment features",
+        "Offer 5% interest halal loans across Africa",
+        "Establish Sharia-compliant financial products with NdeipiCoin",
+      ],
+    },
+    {
+      roadmapTitle: "2025 and Beyond",
+      title: "Full Ecosystem Development",
+      info: [
+        "Introduce NdeipiCoin collateralized loans for small businesses",
+        "Launch NdeipiCoin staking rewards in Ndeipi App",
+        "Develop NdeipiCoin use cases in smart cities and infrastructure",
       ],
     },
   ];
@@ -80,7 +86,7 @@ const Roadmap = () => {
         <div className="row justify-content-center">
           <div className="col-xl-5 col-lg-8">
             <div className="section-title text-center mb-60">
-              <span className="sub-title">OUr Roadmap</span>
+              <span className="sub-title">Our Roadmap</span>
               <h2 className="title">
                 NdeipiCoin Strategy and <br /> Project <span>Plan</span>
               </h2>
@@ -107,5 +113,6 @@ const Roadmap = () => {
     </section>
   );
 };
+
 
 export default Roadmap;
