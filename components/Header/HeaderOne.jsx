@@ -101,29 +101,14 @@ const HeaderOne = () => {
 
                   <div className={cn("navbar-wrap main-menu d-none d-lg-flex")}>
                     <ul className={"navigation"}>
-                      <li
-                        className={cn(
-                          (!hash || hash == "header") && "active",
-                          "menu-item-has-children"
-                        )}
-                      >
+                      <li className={cn(hash == "home" && "active")}>
                         <Link
-                          href="#header"
+                          href="#home"
                           className={"section-link"}
-                          onClick={() => handleClickScroll("header")}
+                          onClick={() => handleClickScroll("home")}
                         >
                           Home
                         </Link>
-                        <ul className={cn("sub-menu")}>
-                          <li className={cn(pathname == "/" && "active")}>
-                            <Link href="/">Home One</Link>
-                          </li>
-                          <li
-                            className={cn(pathname == "/home-two" && "active")}
-                          >
-                            <Link href="/home-two">Home Two</Link>
-                          </li>
-                        </ul>
                       </li>
                       <li className={cn(hash == "about" && "active")}>
                         <Link
