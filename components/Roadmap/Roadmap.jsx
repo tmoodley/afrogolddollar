@@ -18,7 +18,7 @@ const Roadmap = () => {
       title: "Initial Research and Partnerships",
       info: [
         "Establish strategic partnerships with CoinChange.io for staking",
-        "Integrate with Coinchange.io banking services",
+        "Integrate with YazzMoney.io banking services",
         "Secure licensing and regulatory compliance for NdeipiCoin",
       ],
     },
@@ -37,7 +37,7 @@ const Roadmap = () => {
       info: [
         "Launch NdeipiCoin public sale on exchange",
         "Introduce tokenized shares of Ndeipi stock",
-        "Enable borrowing against NdeipiCoin holdings via Ark Holding",
+        "Enable borrowing against NdeipiCoin holdings via YazzMoney.io",
       ],
     },
     {
