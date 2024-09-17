@@ -5,7 +5,7 @@ import RoadmapItem from "./RoadmapItem";
 const Roadmap = () => {
   const roadmap_items = [
     {
-      roadmapTitle: "Q4 2023",
+      roadmapTitle: "Q4 2024",
       title: "Concept Development",
       info: [
         "Finalize NdeipiCoin's tokenomics",
@@ -14,16 +14,16 @@ const Roadmap = () => {
       ],
     },
     {
-      roadmapTitle: "Q4 2023",
+      roadmapTitle: "Q4 2024",
       title: "Initial Research and Partnerships",
       info: [
         "Establish strategic partnerships with CoinChange.io for staking",
-        "Integrate with Ark Holding's banking services",
+        "Integrate with Coinchange.io banking services",
         "Secure licensing and regulatory compliance for NdeipiCoin",
       ],
     },
     {
-      roadmapTitle: "Q1 2024",
+      roadmapTitle: "Q1 2025",
       title: "Platform Development and Testing",
       info: [
         "Launch private beta of Ndeipi App with NdeipiCoin support",
@@ -32,7 +32,7 @@ const Roadmap = () => {
       ],
     },
     {
-      roadmapTitle: "Q1 2024",
+      roadmapTitle: "Q1 2025",
       title: "Public Beta Launch",
       info: [
         "Launch NdeipiCoin public sale on exchange",
@@ -41,7 +41,7 @@ const Roadmap = () => {
       ],
     },
     {
-      roadmapTitle: "Q2 2024",
+      roadmapTitle: "Q2 2025",
       title: "Expansion and User Acquisition",
       info: [
         "Expand NdeipiCoin adoption across Zimbabwe, South Africa, and Zambia",
@@ -50,7 +50,7 @@ const Roadmap = () => {
       ],
     },
     {
-      roadmapTitle: "Q3 2024",
+      roadmapTitle: "Q3 2025",
       title: "Global Expansion",
       info: [
         "Integrate NdeipiCoin with more global exchanges",
@@ -59,7 +59,7 @@ const Roadmap = () => {
       ],
     },
     {
-      roadmapTitle: "Q4 2024",
+      roadmapTitle: "Q4 2025",
       title: "Halal-Compliant Financial Services",
       info: [
         "Launch NdeipiCoin halal-friendly investment features",
@@ -68,7 +68,7 @@ const Roadmap = () => {
       ],
     },
     {
-      roadmapTitle: "2025 and Beyond",
+      roadmapTitle: "2026 and Beyond",
       title: "Full Ecosystem Development",
       info: [
         "Introduce NdeipiCoin collateralized loans for small businesses",
