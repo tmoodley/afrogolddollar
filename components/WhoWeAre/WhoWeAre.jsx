@@ -21,11 +21,11 @@ const WhoWeAre = () => {
               <div className="section-title mb-30">
                 <span className="sub-title">Who we are</span>
                 <h2 className="title">
-                  Africa’s <span>1st Bitcoin Gold Backed Utility Token</span> that's pegged to Ndeipi Stock.
+                  Africa’s <span>1st Utility Token</span> that's linked to Ndeipi Ecosystem.
                 </h2>
               </div>
               <p>
-                Bitcoin Gold Backed Utility Token That's pegged to Ndeipi Stock and The
+                Ndeipi is a Utility Token for the Ndeipi App and The
                 platform helps investors to make easy to purchase and sell their
                 tokens
               </p>
