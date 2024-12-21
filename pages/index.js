@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>NdeipiCoin - Gold backed Utility Token & Crypto</title>
+        <title>NdeipiCoin - Utility Token for Ndeipi App</title>
         <meta name="description" content="" />
       </Head>
 
