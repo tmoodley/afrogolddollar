@@ -24,12 +24,18 @@ const FooterOne = () => {
                   data-wow-delay=".2s"
                 >
                   <Link href="/" className="f-logo">
-                    <img src={"/img/logo/logo.png"} alt="NdeipiCoin Logo" />
+                    <img
+                      src={"/img/ndeipicoin-logo-transparent.png"}
+                      alt="NdeipiCoin Logo"
+                      height={"100px"}
+                      width={"100px"}
+                    />
                   </Link>
                   <div className="footer-content">
                     <p>
-                      A new way to make the payments easy, reliable and 100%
-                      secure. 
+                      NdeipiCoin is Ndeipi's native cryptocurrency. It is used
+                      for network operations, transactions, games or
+                      collectibles built on Ndeipi.
                     </p>
                     {/* <ul className="footer-social">
                       <li>
@@ -88,7 +94,7 @@ const FooterOne = () => {
                   className="footer-widget wow fadeInUp"
                   data-wow-delay=".6s"
                 >
-                 {/* <h4 className="fw-title">Community</h4>
+                  {/* <h4 className="fw-title">Community</h4>
                   <div className="footer-link">
                      <ul>
                       <li>
@@ -118,7 +124,8 @@ const FooterOne = () => {
                   <h4 className="fw-title">Subscribe Newsletter</h4>
                   <div className="footer-newsletter">
                     <p>
-                      Subscribe to our newsletter and receive the latest updates immediately.
+                      Subscribe to our newsletter and receive the latest updates
+                      immediately.
                     </p>
                     <form action="#">
                       <input

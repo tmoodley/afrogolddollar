@@ -33,9 +33,9 @@
 */
 
 /* 1. Theme default css */
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@200;300;400;500;600;700&family=Playfair+Display:wght@600&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 body {
-  font-family: "Outfit", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-size: 16px;
   color: #a4b4c3;
@@ -82,12 +82,12 @@ button:focus {
 a:hover,
 .portfolio-cat a:hover,
 .footer -menu li a:hover {
-  color: #00c4f4;
+  color: #00A980;
   text-decoration: none;
 }
 a,
 button {
-  color: #00c4f4;
+  color: #00A980;
   outline: medium none;
   text-decoration: none;
 }
@@ -171,22 +171,22 @@ label {
   font-weight: 400;
 }
 *::-moz-selection {
-  background: #00c4f4;
+  background: #00A980;
   color: #fff;
   text-shadow: none;
 }
 ::-moz-selection {
-  background: #00c4f4;
+  background: #00A980;
   color: #fff;
   text-shadow: none;
 }
 ::selection {
-  background: #00c4f4;
+  background: #00A980;
   color: #fff;
   text-shadow: none;
 }
 *::-moz-placeholder {
-  color: #00c4f4;
+  color: #00A980;
   font-size: 14px;
   opacity: 1;
 }
@@ -263,17 +263,17 @@ label {
   margin: -2px;
   background: linear-gradient(
     90deg,
-    rgba(0, 196, 244, 1) 0%,
+    rgba(37, 226, 174, 1) 0%,
     rgba(4, 12, 21, 1) 49%,
-    rgba(0, 196, 244, 1) 100%
+    rgba(37, 226, 174, 1) 100%
   );
   border-radius: 70px;
   transition: all 0.4s ease 0s;
   z-index: -1;
 }
 .btn:hover {
-  border-color: #00c4f4;
-  color: #00c4f4;
+  border-color: #00A980;
+  color: #00A980;
 }
 .btn.btn-two {
   background: #564dca;
@@ -286,7 +286,7 @@ label {
 }
 .btn.btn-two:hover {
   color: #fff;
-  background: #00c4f4;
+  background: #00A980;
 }
 .breadcrumb > .active {
   color: #888;
@@ -399,7 +399,7 @@ label {
   bottom: 0;
   width: 100%;
   height: 3px;
-  background: #00c4f4;
+  background: #00A980;
   -webkit-transform-origin: right top;
   -ms-transform-origin: right top;
   transform-origin: right top;
@@ -468,7 +468,7 @@ label {
   display: block;
   font-family: "Font Awesome 5 Free";
   font-weight: 700;
-  color: #00c4f4;
+  color: #00A980;
   margin-left: 10px;
 }
 .header-lang .lang-list {
@@ -508,7 +508,7 @@ label {
   letter-spacing: 1px;
 }
 .header-lang .lang-list li a:hover {
-  color: #00c4f4;
+  color: #00A980;
 }
 .header-btn .btn {
   font-size: 14px;
@@ -566,7 +566,7 @@ label {
 }
 .navbar-wrap ul li .sub-menu li a:hover,
 .navbar-wrap ul li .sub-menu li.active a {
-  color: #00c4f4;
+  color: #00A980;
 }
 .navbar-wrap ul li:hover > .sub-menu {
   opacity: 1;
@@ -607,7 +607,7 @@ label {
   display: none;
 }
 .menu-style-two .header-btn .btn {
-  background: #00c4f4;
+  background: #00A980;
   border-radius: 5px;
 }
 .menu-style-two .header-btn .btn::after {
@@ -623,7 +623,7 @@ label {
 }
 .menu-style-two .navbar-wrap > ul > li.active > a,
 .menu-style-two .navbar-wrap > ul > li:hover > a {
-  color: #00c4f4;
+  color: #00A980;
 }
 
 /* 3. Mobile-menu */
@@ -726,7 +726,7 @@ label {
   width: 35px;
   text-align: center;
   font-size: 20px;
-  color: #00c4f4;
+  color: #00A980;
   cursor: pointer;
   z-index: 10;
   -webkit-transition: all 0.9s ease;
@@ -801,7 +801,7 @@ label {
   font-size: 16px;
   line-height: 32px;
   color: #fff;
-  background: #00c4f4;
+  background: #00A980;
   cursor: pointer;
   border-radius: 2px;
   -webkit-transition: all 500ms ease;
@@ -853,8 +853,8 @@ label {
   -o-border-radius: 3px;
 }
 .mobile-menu .social-links li a:hover {
-  border-color: #00c4f4;
-  background: #00c4f4;
+  border-color: #00A980;
+  background: #00A980;
   color: #fff;
 }
 .menu-area .mobile-nav-toggler {
@@ -925,7 +925,7 @@ label {
   letter-spacing: -0.01em;
 }
 .banner-content .title span {
-  color: #00c4f4;
+  color: #00A980;
 }
 .banner-progress-wrap ul {
   display: flex;
@@ -938,7 +938,7 @@ label {
   font-weight: 600;
   font-size: 12px;
   text-transform: uppercase;
-  color: #00c4f4;
+  color: #00A980;
   display: inline-block;
   position: relative;
   padding-bottom: 25px;
@@ -951,7 +951,7 @@ label {
   transform: translateX(-50%);
   width: 2px;
   height: 14px;
-  background: #00c4f4;
+  background: #00A980;
 }
 .banner-progress-wrap ul li:nth-child(2) {
   color: #ff9700;
@@ -977,7 +977,7 @@ label {
   margin-top: 8px;
 }
 .banner-progress-wrap .progress .progress-bar {
-  background-color: #00c4f4;
+  background-color: #00A980;
   position: relative;
   overflow: inherit;
 }
@@ -992,7 +992,7 @@ label {
   border-radius: 50%;
   background: #fff;
   z-index: 5;
-  border: 6px solid #00c4f4;
+  border: 6px solid #00A980;
 }
 .banner-progress-wrap .title {
   font-size: 15px;
@@ -1039,17 +1039,17 @@ label {
 .banner-countdown-wrap .coming-time .time-count span {
   font-size: 35px;
   font-weight: 600;
-  color: #00c4f4;
+  color: #00A980;
   margin-bottom: 12px;
   display: block;
   font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
 }
 .banner-countdown-wrap .coming-time .time-count.hour span {
-  color: #ff9700;
+  color: #f8b400;
 }
 .banner-countdown-wrap .coming-time .time-count.min span {
-  color: #ff1d45;
+  color: #984d08;
 }
 .banner-countdown-wrap .coming-time .time-count.sec span {
   color: #12d176;
@@ -1255,7 +1255,7 @@ label {
   transform: translateX(-50%);
   width: 80%;
   height: 80%;
-  background: #00c4f4;
+  background: #00A980;
   opacity: 0.08;
   border-radius: 20px;
   z-index: -1;
@@ -1379,7 +1379,7 @@ label {
   transform: translateY(-50%);
   width: 10px;
   height: 10px;
-  background: #00c4f4;
+  background: #00A980;
   border-radius: 50%;
 }
 .section-title .sub-title::after {
@@ -1392,7 +1392,7 @@ label {
   letter-spacing: -0.01em;
 }
 .section-title .title span {
-  color: #00c4f4;
+  color: #00A980;
 }
 .about-content p {
   margin-bottom: 40px;
@@ -1537,7 +1537,7 @@ label {
   transition: 0.3s ease-in-out;
 }
 .choose-item:hover .choose-icon {
-  border-color: #00c4f4;
+  border-color: #00A980;
 }
 .choose-content .title {
   font-size: 22px;
@@ -1569,7 +1569,7 @@ label {
   border-radius: 0;
   background: rgba(255, 255, 255, 0.1);
   /* overflow: hidden;
-  background-image: linear-gradient(to right, #00c4f4, #00c4f4);
+  background-image: linear-gradient(to right, #00A980, #00A980);
   background-repeat: no-repeat;
   background-size: 0 100%;
   transition: background-size 0.4s ease-in-out; */
@@ -1579,7 +1579,7 @@ label {
 
 .choose-area .slide-progressbar .slide-filler {
   height: 2px;
-  background-image: linear-gradient(to right, #00c4f4, #00c4f4);
+  background-image: linear-gradient(to right, #00A980, #00A980);
   background-repeat: no-repeat;
   /* background-size: 0 100%; */
   transition: background-size 0.4s ease-in-out;
@@ -1665,7 +1665,7 @@ label {
   bottom: 0;
   width: 100%;
   height: 3px;
-  background: #00c4f4;
+  background: #00A980;
   transition: 0.3s linear;
   opacity: 0;
 }
@@ -1686,7 +1686,7 @@ label {
   margin-bottom: 45px;
 }
 .chart-content-inner .btn {
-  background: #00c4f4;
+  background: #00A980;
   min-width: 200px;
   padding: 21px 50px;
 }
@@ -1741,7 +1741,7 @@ label {
   background: #ff9700;
 }
 .chart-wrap ul li:nth-child(5):before {
-  background: #00c4f4;
+  background: #00A980;
 }
 .chart-wrap ul li:nth-child(6):before {
   background: #007ff4;
@@ -1766,7 +1766,7 @@ label {
   width: 80%;
   height: 80%;
   border-radius: 20px;
-  background: #00c4f4;
+  background: #00A980;
   opacity: 0.08;
   z-index: -1;
 }
@@ -1839,7 +1839,7 @@ label {
 }
 .roadmap-title {
   display: inline-block;
-  color: #00c4f4;
+  color: #00A980;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1853,7 +1853,7 @@ label {
   top: 0;
   width: 16px;
   height: 16px;
-  background: #00c4f4;
+  background: #00A980;
   border-radius: 50%;
 }
 .roadmap-content .dot::before {
@@ -1864,7 +1864,7 @@ label {
   transform: translate(-50%, -50%);
   width: 32px;
   height: 32px;
-  background: #00c4f4;
+  background: #00A980;
   opacity: 0.1;
   border-radius: 50%;
 }
@@ -1881,7 +1881,7 @@ label {
   top: 0;
   width: 1px;
   height: 100%;
-  background: #00c4f4;
+  background: #00A980;
 }
 .roadmap-content .title {
   font-size: 18px;
@@ -2086,7 +2086,7 @@ label {
 .roadmap-wrap-two.bottom .roadmap-item:nth-child(4) .roadmap-content::before,
 .roadmap-wrap-two.bottom .roadmap-item:nth-child(4) .dot,
 .roadmap-wrap-two.bottom .roadmap-item:nth-child(4) .dot::before {
-  background: #00c4f4;
+  background: #00A980;
 }
 .roadmap-wrap-two.bottom .roadmap-item:nth-child(1) .roadmap-title {
   color: #ff4581;
@@ -2098,7 +2098,7 @@ label {
   color: #ff9700;
 }
 .roadmap-wrap-two.bottom .roadmap-item:nth-child(4) .roadmap-title {
-  color: #00c4f4;
+  color: #00A980;
 }
 
 /* 12. Document */
@@ -2166,7 +2166,7 @@ label {
   width: 226px;
   height: 226px;
   background: transparent;
-  border: 2px dashed #00c4f4;
+  border: 2px dashed #00A980;
   border-radius: 50%;
   position: absolute;
   transition: all 0.3s ease-in-out;
@@ -2208,7 +2208,7 @@ label {
   font-size: 13px;
 }
 .team-content .team-social li a:hover {
-  color: #00c4f4;
+  color: #00A980;
 }
 
 /* team-two */
@@ -2323,7 +2323,7 @@ label {
   bottom: 0;
   width: 100%;
   height: 4px;
-  background: #00c4f4;
+  background: #00A980;
 }
 .faq-wrap .accordion-body p {
   margin-bottom: 0;
@@ -2809,7 +2809,7 @@ label {
   max-height: 172px;
 }
 .comment-form .btn.btn-two:hover {
-  background: #00c4f4;
+  background: #00A980;
 }
 
 /* 17. Pagination */
@@ -2915,13 +2915,13 @@ label {
   color: #ff4581;
 }
 .contact-info-wrap .row [class*="col-"]:nth-child(3) .icon {
-  color: #00c4f4;
+  color: #00A980;
 }
 .contact-info-wrap .row [class*="col-"]:nth-child(2) .icon-background::before {
   border-color: #ff4581;
 }
 .contact-info-wrap .row [class*="col-"]:nth-child(3) .icon-background::before {
-  border-color: #00c4f4;
+  border-color: #00A980;
 }
 .contact-form-wrap {
   background-image: url(/img/bg/contact_bg.png);
@@ -2957,7 +2957,7 @@ label {
 }
 .contact-form-wrap .submit-btn .btn {
   background: #0b1d33;
-  border-color: #00c4f4;
+  border-color: #00A980;
 }
 
 /* contact-two */
@@ -3064,7 +3064,7 @@ label {
   max-height: 165px;
 }
 .contact-form-wrap-two .btn.btn-two {
-  background: #00c4f4;
+  background: #00A980;
 }
 .contact-form-wrap-two .btn.btn-two:hover {
   background: #564dca;
@@ -3165,8 +3165,8 @@ label {
   margin: 0 auto;
 }
 .footer-scroll-wrap .scroll-to-target:hover {
-  background: #00c4f4;
-  border-color: #00c4f4;
+  background: #00A980;
+  border-color: #00A980;
 }
 .footer-scroll-wrap::before {
   content: "";
@@ -3216,8 +3216,8 @@ label {
   font-weight: 400;
 }
 .footer-content .footer-social li a:hover {
-  background: #00c4f4;
-  border-color: #00c4f4;
+  background: #00A980;
+  border-color: #00A980;
 }
 .footer-widget .fw-title {
   font-size: 18px;
@@ -3301,7 +3301,7 @@ label {
   top: 0;
   width: 65px;
   height: 72px;
-  background: #00c4f4;
+  background: #00A980;
   border-radius: 10px;
   font-size: 20px;
   color: #fff;
@@ -3355,7 +3355,7 @@ label {
   font-size: 16px;
 }
 .footer-menu-two .navigation li a:hover {
-  color: #00c4f4;
+  color: #00A980;
 }
 .footer-area-two .footer-social ul {
   display: flex;
@@ -3375,7 +3375,7 @@ label {
   line-height: 1;
 }
 .footer-area-two .footer-social ul li a:hover {
-  color: #00c4f4;
+  color: #00A980;
   opacity: 1;
 }
 .footer-area-two .footer-bottom {
@@ -3403,7 +3403,7 @@ label {
   margin: -60px auto 15px;
 }
 .footer-area-two .scroll-up .scroll-to-target:hover {
-  background: #00c4f4;
+  background: #00A980;
 }
 .footer-area-two .scroll-up span {
   display: block;
@@ -3428,7 +3428,7 @@ label {
   font-weight: 500;
 }
 .footer-bottom-menu ul li a:hover {
-  color: #00c4f4;
+  color: #00A980;
 }
 
 /* footer-three */

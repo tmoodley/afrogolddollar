@@ -26,10 +26,10 @@ const Banner = () => {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="banner-content text-center">
-              <img src={"/img/icon/fire.png"} alt="" />
+              {/* <img src={"/img/icon/fire.png"} alt="" /> */}
               <h2 className="title">
-                Join Future of African Bitcoin/Gold-back Utility Token <span>Crypto</span> Trading
-                Strategies
+                Join Future of <span>banking</span> utilizing Utility token
+                trading strategies
               </h2>
             </div>
             <div className="banner-progress-wrap">
@@ -54,7 +54,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="row justify-content-center">
+        {/* <div className="row justify-content-center">
           <div className="col-xl-10">
             <div className="banner-countdown-wrap text-center">
               <h2 className="title">ICO Will Start In..</h2>
@@ -62,7 +62,7 @@ const Banner = () => {
               <CountDownOne />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -13,15 +13,15 @@ const Roadmap = () => {
         "Outline integration with Ndeipi App and stock exchange",
       ],
     },
-    {
-      roadmapTitle: "Q4 2024",
-      title: "Initial Research and Partnerships",
-      info: [
-        "Establish strategic partnerships with CoinChange.io for staking",
-        "Integrate with YazzMoney.io banking services",
-        "Secure licensing and regulatory compliance for NdeipiCoin",
-      ],
-    },
+    // {
+    //   roadmapTitle: "Q4 2024",
+    //   title: "Initial Research and Partnerships",
+    //   info: [
+    //     "Establish strategic partnerships with CoinChange.io for staking",
+    //     "Integrate with YazzMoney.io banking services",
+    //     "Secure licensing and regulatory compliance for NdeipiCoin",
+    //   ],
+    // },
     {
       roadmapTitle: "Q1 2025",
       title: "Platform Development and Testing",
@@ -32,26 +32,25 @@ const Roadmap = () => {
       ],
     },
     {
-      roadmapTitle: "Q1 2025",
+      roadmapTitle: "Q1.5 2025",
       title: "Public Beta Launch",
       info: [
         "Launch NdeipiCoin public sale on exchange",
         "Introduce tokenized shares of Ndeipi stock",
-        "Enable borrowing against NdeipiCoin holdings via YazzMoney.io",
+        "Enable borrowing against NdeipiCoin holdings",
       ],
     },
     {
       roadmapTitle: "Q2 2025",
       title: "Expansion and User Acquisition",
       info: [
-        "Expand NdeipiCoin adoption across Zimbabwe, South Africa, and Zambia",
-        "Launch major marketing campaign to drive user growth",
+        "Expand NdeipiCoin adoption across NA Region",
         "Roll out full NdeipiCoin features, including P2P transfers",
       ],
     },
     {
       roadmapTitle: "Q3 2025",
-      title: "Global Expansion",
+      title: "Banking & Global Expansion",
       info: [
         "Integrate NdeipiCoin with more global exchanges",
         "Enable cross-border remittances using NdeipiCoin",
@@ -63,7 +62,7 @@ const Roadmap = () => {
       title: "Halal-Compliant Financial Services",
       info: [
         "Launch NdeipiCoin halal-friendly investment features",
-        "Offer 5% interest halal loans across Africa",
+        "Offer 5% interest halal loans across the community",
         "Establish Sharia-compliant financial products with NdeipiCoin",
       ],
     },
@@ -72,7 +71,7 @@ const Roadmap = () => {
       title: "Full Ecosystem Development",
       info: [
         "Introduce NdeipiCoin collateralized loans for small businesses",
-        "Launch NdeipiCoin staking rewards in Ndeipi App",
+        "Launch Coin Exchange Platform connecting to EcoSystem",
         "Develop NdeipiCoin use cases in smart cities and infrastructure",
       ],
     },
@@ -113,6 +112,5 @@ const Roadmap = () => {
     </section>
   );
 };
-
 
 export default Roadmap;

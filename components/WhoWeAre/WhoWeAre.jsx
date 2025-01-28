@@ -8,7 +8,7 @@ const WhoWeAre = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="about-img wow fadeInLeft" data-wow-delay=".2s">
-              <img src={"/img/images/about_img01.png"} alt="" />
+              <img src={"/img/ndeipicoin-logo-transparent.png"} alt="" />
               <img
                 src={"/img/images/about_img02.png"}
                 alt=""
@@ -21,15 +21,19 @@ const WhoWeAre = () => {
               <div className="section-title mb-30">
                 <span className="sub-title">Who we are</span>
                 <h2 className="title">
-                  Africa’s <span>1st Utility Token</span> that's linked to Ndeipi Ecosystem.
+                  The community's <span>1st Utility Token</span> that's linked
+                  to Ndeipi Ecosystem.
                 </h2>
               </div>
               <p>
-                Ndeipi is a Utility Token for the Ndeipi App and The
-                platform helps investors to make easy to purchase and sell their
-                tokens
+                NdeipiCoin is Ndeipi's native cryptocurrency. It is used for
+                network operations, transactions, games or collectibles
+                built on Ndeipi.
               </p>
-              <Link href="https://opensea.io/ndeipi" className="btn">
+              <Link
+                href="https://uzx.com/#/exchange/ndeipi_usdt"
+                className="btn"
+              >
                 Purchase Tokens
               </Link>
             </div>

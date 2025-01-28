@@ -95,7 +95,12 @@ const HeaderOne = () => {
                 <nav className={"menu-nav"}>
                   <div className="logo">
                     <Link href={"/"}>
-                      <img src={"/img/logo/logo.png"} alt="NdeipiCoin Logo" />
+                      <img
+                        src={"/img/ndeipicoin-logo-transparent.png"}
+                        alt="NdeipiCoin Logo"
+                        width={"80px"}
+                        height={"80px"}
+                      />
                     </Link>
                   </div>
 
@@ -110,7 +115,7 @@ const HeaderOne = () => {
                           Home
                         </Link>
                       </li>
-                      <li className={cn(hash == "about" && "active")}>
+                      {/* <li className={cn(hash == "about" && "active")}>
                         <Link
                           href="#about"
                           className={"section-link"}
@@ -127,7 +132,7 @@ const HeaderOne = () => {
                         >
                           Sales
                         </Link>
-                      </li>
+                      </li> */}
                       <li className={isActiveLink("#roadmap")}>
                         <Link
                           href="#roadmap"
@@ -149,9 +154,12 @@ const HeaderOne = () => {
                     </ul>
                   </div>
                   <div className={cn("header-action", "d-none d-md-block")}>
-                    <ul> 
+                    <ul>
                       <li className={"header-btn"}>
-                        <Link href="https://opensea.io/ndeipi" className="btn">
+                        <Link
+                          href="https://uzx.com/#/exchange/ndeipi_usdt"
+                          className="btn"
+                        >
                           Buy Now
                         </Link>
                       </li>

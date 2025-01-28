@@ -119,7 +119,7 @@ const WhyChooseUs = () => {
             <div className="section-title text-center mb-50">
               <span className="sub-title">why Choose us </span>
               <h2 className="title">
-                Why choose our Gold Backed Utility <span>Token</span>
+                Why choose our USD backed Utility <span>Token</span>
               </h2>
             </div>
           </div>

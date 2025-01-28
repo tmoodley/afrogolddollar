@@ -2,21 +2,21 @@ import React from "react";
 import TeamOneItem from "./TeamOneItem";
 
 const TeamOne = () => {
-  const team_members = [   
+  const team_members = [
     {
       src: "/img/team/team_img03.png",
       name: "Tyrone Moodley",
       designation: "CEO",
       linkedin: "https://www.linkedin.com/in/tymoodley/",
-      twitter: "https://twitter.com/tmoodley"
-    }, 
+      twitter: "https://twitter.com/tmoodley",
+    },
     {
       src: "/img/team/team_img04.png",
       name: "Alexander Munro",
       designation: "CFO",
       linkedin: "https://www.linkedin.com/in/aimunro/",
-      twitter: "https://twitter.com/DDLN_tech"
-    },    
+      twitter: "https://twitter.com/DDLN_tech",
+    },
   ];
 
   return (
@@ -25,7 +25,7 @@ const TeamOne = () => {
         <div className="row justify-content-center">
           <div className="col-xl-6">
             <div className="section-title text-center mb-70">
-              <span className="sub-title">OUr team</span>
+              <span className="sub-title">Our team</span>
               <h2 className="title">
                 The Leadership <br /> <span>Team</span>
               </h2>

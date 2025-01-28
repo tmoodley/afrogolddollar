@@ -6,27 +6,15 @@ const ContactOne = () => {
   const info_items = [
     {
       icon: "fa-envelope",
-      content: (
-        <>
-          info@ndeipicoin.com
-        </>
-      ),
+      content: <>info@ndeipicoin.com</>,
     },
     {
       icon: "fa-phone",
-      content: (
-        <>
-          +1-226-698-5643
-        </>
-      ),
+      content: <>https://t.me/ndeipicoin</>,
     },
     {
       icon: "fa-map-marker-alt",
-      content: (
-        <>
-          9 Nangwenya Rd, Lusaka, Zambia
-        </>
-      ),
+      content: <>NDEIPI INC, 5900 BALCONES DR STE 100, AUSTIN, TX 78731</>,
     },
   ];
 
