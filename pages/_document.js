@@ -15,6 +15,10 @@ export default function Document() {
           href="https://fonts.googleapis.com/css?family=Poppins&display=optional"
           rel="stylesheet"
         ></link>
+        <script
+          async
+          src="https://tag.pearldiver.io/ldc.js?pid=efee5bd0045da8d9123afcb19849b553&aid=16de03f2"
+        ></script>
       </Head>
 
       <body>
