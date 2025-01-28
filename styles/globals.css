@@ -1340,7 +1340,7 @@ label {
   border-color: #ff9700;
 }
 .custom-countdown-two .time-count.min {
-  border-color: #ff4581;
+  border-color: #a4f6d6;
 }
 .custom-countdown-two .time-count.sec {
   border-color: #12d176;
@@ -1828,7 +1828,7 @@ label {
   transform: translateY(-50%);
   width: 1670px;
   height: 8px;
-  background: linear-gradient(294.72deg, #ff4581 9.05%, #4388dd 79.28%);
+  background: linear-gradient(294.72deg, #a4f6d6 9.05%, #4388dd 79.28%);
   opacity: 0.1;
 }
 .roadmap-item {
@@ -1929,7 +1929,7 @@ label {
 .bt-roadmap-item:nth-child(2) .roadmap-content::before,
 .bt-roadmap-item:nth-child(2) .dot,
 .bt-roadmap-item:nth-child(2) .dot::before {
-  background: #ff4581;
+  background: #a4f6d6;
 }
 .bt-roadmap-item:nth-child(3) .roadmap-content::before,
 .bt-roadmap-item:nth-child(3) .dot,
@@ -1954,10 +1954,10 @@ label {
 .bt-roadmap-item:nth-child(7) .roadmap-content::before,
 .bt-roadmap-item:nth-child(7) .dot,
 .bt-roadmap-item:nth-child(7) .dot::before {
-  background: #ff4581;
+  background: #a4f6d6;
 }
 .bt-roadmap-item:nth-child(2) .roadmap-title {
-  color: #ff4581;
+  color: #a4f6d6;
 }
 .bt-roadmap-item:nth-child(3) .roadmap-title {
   color: #ff9700;
@@ -1972,7 +1972,7 @@ label {
   color: #ff9700;
 }
 .bt-roadmap-item:nth-child(7) .roadmap-title {
-  color: #ff4581;
+  color: #a4f6d6;
 }
 
 /* roadmap-two */
@@ -1992,7 +1992,7 @@ label {
   top: 50px;
   width: 100%;
   height: 8px;
-  background: linear-gradient(294.72deg, #ff4581 9.05%, #4388dd 79.28%);
+  background: linear-gradient(294.72deg, #a4f6d6 9.05%, #4388dd 79.28%);
   opacity: 0.1;
 }
 .roadmap-wrap-two .roadmap-content .title {
@@ -2057,7 +2057,7 @@ label {
 .roadmap-wrap-two .roadmap-item:nth-child(4) .roadmap-content::before,
 .roadmap-wrap-two .roadmap-item:nth-child(4) .dot,
 .roadmap-wrap-two .roadmap-item:nth-child(4) .dot::before {
-  background: #ff4581;
+  background: #a4f6d6;
 }
 .roadmap-wrap-two .roadmap-item:nth-child(2) .roadmap-title {
   color: #ff9700;
@@ -2066,12 +2066,12 @@ label {
   color: #007ff4;
 }
 .roadmap-wrap-two .roadmap-item:nth-child(4) .roadmap-title {
-  color: #ff4581;
+  color: #a4f6d6;
 }
 .roadmap-wrap-two.bottom .roadmap-item:nth-child(1) .roadmap-content::before,
 .roadmap-wrap-two.bottom .roadmap-item:nth-child(1) .dot,
 .roadmap-wrap-two.bottom .roadmap-item:nth-child(1) .dot::before {
-  background: #ff4581;
+  background: #a4f6d6;
 }
 .roadmap-wrap-two.bottom .roadmap-item:nth-child(2) .roadmap-content::before,
 .roadmap-wrap-two.bottom .roadmap-item:nth-child(2) .dot,
@@ -2089,7 +2089,7 @@ label {
   background: #00A980;
 }
 .roadmap-wrap-two.bottom .roadmap-item:nth-child(1) .roadmap-title {
-  color: #ff4581;
+  color: #a4f6d6;
 }
 .roadmap-wrap-two.bottom .roadmap-item:nth-child(2) .roadmap-title {
   color: #007ff4;
@@ -2912,13 +2912,13 @@ label {
   line-height: 30px;
 }
 .contact-info-wrap .row [class*="col-"]:nth-child(2) .icon {
-  color: #ff4581;
+  color: #a4f6d6;
 }
 .contact-info-wrap .row [class*="col-"]:nth-child(3) .icon {
   color: #00A980;
 }
 .contact-info-wrap .row [class*="col-"]:nth-child(2) .icon-background::before {
-  border-color: #ff4581;
+  border-color: #a4f6d6;
 }
 .contact-info-wrap .row [class*="col-"]:nth-child(3) .icon-background::before {
   border-color: #00A980;
@@ -3457,7 +3457,7 @@ label {
 .bt-roadmap-wrap {
   display: flex;
   padding: 0;
-  min-height: 490px;
+  min-height: 650px;
   margin: 10px 0 0;
   justify-content: flex-start;
 }
@@ -3472,14 +3472,14 @@ label {
   transform: translateY(-50%);
   width: 1670px;
   height: 8px;
-  background: linear-gradient(294.72deg, #ff4581 9.05%, #4388dd 79.28%);
+  background: linear-gradient(294.72deg, #a4f6d6 9.05%, #4388dd 79.28%);
   opacity: 0.1;
 }
 .bt-roadmap-item {
   display: flex;
   width: 370px;
   flex: 0 0 auto;
-  height: 305px;
+  height: 380px;
   align-self: flex-end;
   flex-direction: column;
   justify-content: flex-start;

@@ -146,20 +146,29 @@ const FooterOne = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="copyright-text">
-                  <p>Copyright &copy; 2024. All Rights Reserved NdeipiCoin</p>
+                  <p>Copyright &copy; 2025. All Rights Reserved NdeipiCoin</p>
                 </div>
               </div>
               <div className="col-lg-6 d-none d-sm-block">
                 <div className="footer-menu">
                   <ul>
                     <li>
-                      <Link href="#">Terms and conditions</Link>
+                      <Link href="https://ndeipi.com/terms" _target="blank">
+                        Terms and conditions
+                      </Link>
                     </li>
                     <li>
-                      <Link href="#">Privacy policy</Link>
+                      <Link href="https://ndeipi.com/privacy" _target="blank">
+                        Privacy Policy
+                      </Link>
                     </li>
                     <li>
-                      <Link href="#">Login / Signup</Link>
+                      <Link
+                        href="https://uzx.com/#/exchange/ndeipi_usdt"
+                        _target="blank"
+                      >
+                        Buy Now
+                      </Link>
                     </li>
                   </ul>
                 </div>

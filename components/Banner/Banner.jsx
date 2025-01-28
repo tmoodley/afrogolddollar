@@ -3,7 +3,7 @@ import CountDownOne from "../CountDown/CountDownOne";
 
 const Banner = () => {
   return (
-    <section className="banner-area banner-bg">
+    <section className="banner-area banner-bg ">
       <div className="banner-shape-wrap">
         <img
           src={"/img/banner/banner_shape01.png"}
@@ -32,7 +32,7 @@ const Banner = () => {
                 trading strategies
               </h2>
             </div>
-            <div className="banner-progress-wrap">
+            {/* <div className="banner-progress-wrap">
               <ul>
                 <li>Pre Sell</li>
                 <li>Soft Cap</li>
@@ -51,7 +51,7 @@ const Banner = () => {
               <h4 className="title">
                 1% target raised <span>1 NdeipiCoin = $7.95</span>
               </h4>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* <div className="row justify-content-center">
