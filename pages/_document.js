@@ -17,7 +17,7 @@ export default function Document() {
         ></link>
         <script
           async
-          src="https://tag.pearldiver.io/ldc.js?pid=a273b60ed6a8365dae0924a0ba95e15e&aid=16de03f2"
+          src="https://tag.diver.io/ldc.js?pid=a273b60ed6a8365dae0924a0ba95e15e&aid=16de03f2"
         ></script>
       </Head>
 
