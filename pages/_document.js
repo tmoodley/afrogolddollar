@@ -15,10 +15,10 @@ export default function Document() {
           href="https://fonts.googleapis.com/css?family=Poppins&display=optional"
           rel="stylesheet"
         ></link>
-        <script
+        {/* <script
           async
           src="https://tag.diver.io/ldc.js?pid=a273b60ed6a8365dae0924a0ba95e15e&aid=16de03f2"
-        ></script>
+        ></script> */}
       </Head>
 
       <body>
