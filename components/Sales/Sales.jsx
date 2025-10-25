@@ -3,16 +3,19 @@ import SalesTabButton from "./SalesTabButton";
 import SalesTabContent from "./SalesTabContent";
 
 const Sales = () => {
-  const chart_info_list = ["US Treasuries: 100%"];
+  const chart_info_list = ["Gold-Backed: 100% Verified Reserves"];
 
   return (
-    <section id="sales" className="chart-area chart-bg ">
+    <section id="sales" className="chart-area chart-bg">
       <div className="container">
         <div className="chart-inner">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6 col-md-10 order-0 order-lg-2">
-              <div className=" wow fadeInRight" data-wow-delay=".2s">
-                <img src={"/img/ndeipicoin-logo-with-background.png"} alt="" />
+              <div className="wow fadeInRight" data-wow-delay=".2s">
+                <img
+                  src={"/img/afrogolddollar-logo.png"}
+                  alt="Afro Gold Dollar"
+                />
               </div>
             </div>
 
@@ -22,44 +25,32 @@ const Sales = () => {
                 data-wow-delay=".2s"
               >
                 <ul className="nav nav-tabs" id="myTab" role="tablist">
-                  {/* <SalesTabButton
-                    title="Funding Allocation"
-                    className="active"
-                    id="funding-tab"
-                    target="#funding"
-                    ariaControls="funding"
-                    ariaSelected={true}
-                  /> */}
-
                   <SalesTabButton
                     title="Token Allocation"
-                    className=""
+                    className="active"
                     id="token-tab"
                     target="#token"
                     ariaControls="token"
-                    ariaSelected={false}
+                    ariaSelected={true}
                   />
                 </ul>
 
                 <div className="tab-content" id="myTabContent">
                   <SalesTabContent
                     className={"show active"}
-                    id="funding"
-                    ariaLabel="funding-tab"
-                    title=" Starting at 1 NdeipiCoin = $7.95"
-                    description="Our pretoken sales starting at $7.95"
-                    link="https://opensea.io/ndeipi"
-                  />
-
-                  {/* <SalesTabContent
-                    className={""}
                     id="token"
                     ariaLabel="token-tab"
-                    title="1 NdeipiCoin = $7.95"
-                    description=" Our Pre-Token Sale starting at $7.95"
-                    link="https://opensea.io/ndeipi"
-                  /> */}
+                    title="Starting at 1 Afro Gold Dollar = 10g of 24K Gold"
+                    description="Each Afro Gold Dollar token is backed by real, verifiable gold stored in audited vaults. Redeem physical gold coins or stake to earn NdeipiCoin rewards. The tokenization is secured by Polygon and powered by Nethereum for enterprise-grade reliability."
+                    link="https://afrogolddollar.com"
+                  />
                 </div>
+
+                <ul className="chart-info-list">
+                  {chart_info_list.map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
+                </ul>
               </div>
             </div>
           </div>
@@ -70,3 +61,4 @@ const Sales = () => {
 };
 
 export default Sales;
+

@@ -12,128 +12,69 @@ const FooterOne = () => {
               className="scroll-to-target"
               data-target="html"
               onClick={scrollToTop}
+              aria-label="Scroll to top"
             >
               <i className="fas fa-arrow-up"></i>
             </button>
           </div>
+
           <div className="footer-top">
             <div className="row">
               <div className="col-xl-3 col-lg-4 col-md-6">
-                <div
-                  className="footer-widget wow fadeInUp"
-                  data-wow-delay=".2s"
-                >
-                  <Link href="/" className="f-logo">
+                <div className="footer-widget wow fadeInUp" data-wow-delay=".2s">
+                  <Link href="/" className="f-logo" aria-label="Afro Gold Dollar Home">
                     <img
-                      src={"/img/ndeipicoin-logo-transparent.png"}
-                      alt="NdeipiCoin Logo"
-                      height={"100px"}
-                      width={"100px"}
+                      src={"/img/afrogolddollar-logo.png"}
+                      alt="Afro Gold Dollar Logo"
+                      height="100"
+                      width="100"
                     />
                   </Link>
                   <div className="footer-content">
                     <p>
-                      NdeipiCoin is Ndeipi's native cryptocurrency. It is used
-                      for network operations, transactions, games or
-                      collectibles built on Ndeipi.
+                      <strong>Afro Gold Dollar (AGD)</strong> is a gold-backed
+                      digital currency on Polygon. Redeem 10g/20g/50g coins or
+                      stake your gold to earn <strong>NdeipiCoin</strong>.
+                      Proof-of-reserves and enterprise-grade rails via Nethereum.
                     </p>
-                    {/* <ul className="footer-social">
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-youtube"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-skype"></i>
-                        </a>
-                      </li>
-                    </ul> */}
+                    {/* Optional socials
+                    <ul className="footer-social">
+                      <li><a href="https://t.me/afrogolddollar" aria-label="Telegram"><i className="fab fa-telegram"></i></a></li>
+                      <li><a href="https://x.com/afrogolddollar" aria-label="X (Twitter)"><i className="fab fa-twitter"></i></a></li>
+                      <li><a href="https://youtube.com/@afrogolddollar" aria-label="YouTube"><i className="fab fa-youtube"></i></a></li>
+                    </ul>
+                    */}
                   </div>
                 </div>
               </div>
+
               <div className="col-xl-3 col-lg-5 col-sm-6">
-                <div
-                  className="footer-widget  wow fadeInUp"
-                  data-wow-delay=".4s"
-                >
-                  {/* <h4 className="fw-title">Useful Links</h4>
-                  <div className="footer-link">
-                    <ul>
-                      <li>
-                        <Link href="/">Contact us</Link>
-                      </li>
-                      <li>
-                        <Link href="/">How it Works</Link>
-                      </li>
-                      <li>
-                        <Link href="/">Create</Link>
-                      </li>
-                      <li>
-                        <Link href="/">Explore</Link>
-                      </li>
-                      <li>
-                        <Link href="/">Terms & Services</Link>
-                      </li>
-                    </ul>
-                  </div> */}
+                <div className="footer-widget wow fadeInUp" data-wow-delay=".4s">
+                  {/* Reserved for useful links / product */}
                 </div>
               </div>
+
               <div className="col-xl-2 col-lg-3 col-sm-6">
-                <div
-                  className="footer-widget wow fadeInUp"
-                  data-wow-delay=".6s"
-                >
-                  {/* <h4 className="fw-title">Community</h4>
-                  <div className="footer-link">
-                     <ul>
-                      <li>
-                        <Link href="/">Help Center</Link>
-                      </li>
-                      <li>
-                        <Link href="/">Partners</Link>
-                      </li>
-                      <li>
-                        <Link href="/">Suggestions</Link>
-                      </li>
-                      <li>
-                        <Link href="/">Blog</Link>
-                      </li>
-                      <li>
-                        <Link href="/">Newsletters</Link>
-                      </li>
-                    </ul> 
-                  </div>*/}
+                <div className="footer-widget wow fadeInUp" data-wow-delay=".6s">
+                  {/* Reserved for community / resources */}
                 </div>
               </div>
+
               <div className="col-xl-4 col-lg-4 col-md-6">
-                <div
-                  className="footer-widget wow fadeInUp"
-                  data-wow-delay=".8s"
-                >
+                <div className="footer-widget wow fadeInUp" data-wow-delay=".8s">
                   <h4 className="fw-title">Subscribe Newsletter</h4>
                   <div className="footer-newsletter">
                     <p>
-                      Subscribe to our newsletter and receive the latest updates
-                      immediately.
+                      Get updates on redemption, staking rewards, and new vault locations.
                     </p>
-                    <form action="#">
+                    <form action="#" onSubmit={(e) => e.preventDefault()}>
                       <input
                         type="email"
-                        placeholder="Info@ndeipicoin.com"
+                        placeholder="info@afrogolddollar.com"
                         required
+                        aria-label="Email address"
                       />
-                      <button type="submit">
+                      <button type="submit" aria-label="Subscribe">
                         <i className="fas fa-paper-plane"></i>
                       </button>
                     </form>
@@ -142,32 +83,35 @@ const FooterOne = () => {
               </div>
             </div>
           </div>
+
           <div className="footer-bottom">
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="copyright-text">
-                  <p>Copyright &copy; 2025. All Rights Reserved NdeipiCoin</p>
+                  <p>Copyright &copy; 2025. All Rights Reserved • Afro Gold Dollar</p>
                 </div>
               </div>
               <div className="col-lg-6 d-none d-sm-block">
                 <div className="footer-menu">
                   <ul>
                     <li>
-                      <Link href="https://ndeipi.com/terms" _target="blank">
-                        Terms and conditions
+                      <Link href="https://afrogolddollar.com/terms" target="_blank">
+                        Terms &amp; Conditions
                       </Link>
                     </li>
                     <li>
-                      <Link href="https://ndeipi.com/privacy" _target="blank">
+                      <Link href="https://afrogolddollar.com/privacy" target="_blank">
                         Privacy Policy
                       </Link>
                     </li>
                     <li>
-                      <Link
-                        href="https://uzx.com/#/exchange/ndeipi_usdt"
-                        _target="blank"
-                      >
-                        Buy Now
+                      <Link href="https://afrogolddollar.com/buy" target="_blank">
+                        Buy AGD
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="https://afrogolddollar.com/stake" target="_blank">
+                        Stake &amp; Earn NdeipiCoin
                       </Link>
                     </li>
                   </ul>
@@ -175,6 +119,7 @@ const FooterOne = () => {
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </footer>
@@ -182,3 +127,4 @@ const FooterOne = () => {
 };
 
 export default FooterOne;
+

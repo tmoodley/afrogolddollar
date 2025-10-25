@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>NdeipiCoin - Utility Token for Ndeipi App</title>
-        <meta name="description" content="" />
+        <title>Afro Gold Dollar - Gold Token</title>
+        <meta name="description" content="Afro Gold Dollar - Gold Token" />
       </Head>
 
       <LayoutOne>

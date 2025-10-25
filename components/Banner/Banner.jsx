@@ -28,8 +28,7 @@ const Banner = () => {
             <div className="banner-content text-center">
               {/* <img src={"/img/icon/fire.png"} alt="" /> */}
               <h2 className="title">
-                Join Future of <span>banking</span> utilizing Utility token
-                trading strategies
+                An <span>NFT</span> backed by Gold International Fungible Token (GIFT)
               </h2>
             </div>
             {/* <div className="banner-progress-wrap">

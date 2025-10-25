@@ -11,7 +11,7 @@ const WhitePaper = () => {
               className="document-img text-center wow fadeInUp"
               data-wow-delay=".2s"
             >
-              <img src={"/img/images/document_img.png"} alt="" />
+              <img src={"/img/images/afrogolddollar-coin.png"} alt="Afro Gold Dollar Whitepaper" />
             </div>
           </div>
 
@@ -23,19 +23,28 @@ const WhitePaper = () => {
               <div className="section-title mb-35">
                 <span className="sub-title">Whitepaper</span>
                 <h2 className="title">
-                  Read NdeipiCoin <span>Documents</span>
+                  Read Afro Gold Dollar <span>Documents</span>
                 </h2>
               </div>
 
+              <p className="mb-3">
+                The <strong>Afro Gold Dollar</strong> represents a new financial standard for Africa — 
+                a tokenized, gold-backed digital currency built on <strong>Polygon</strong> and powered by 
+                <strong> Nethereum</strong>. Each token is tied to audited gold reserves in Africa and redeemable 
+                through the <strong>Ndeipi ecosystem</strong>. Learn how Afro Gold Dollar connects 
+                blockchain, gold, and inclusive finance in the official documents below.
+              </p>
+
               <ul className="document-list">
-                <li>White Paper</li>
-                <li>Privacy & Policy</li>
-                <li>Terms Of Coin Sale</li>
-                <li>One Pager</li>
+                <li>Afro Gold Dollar Whitepaper</li>
+                <li>Gold Reserve & Redemption Policy</li>
+                <li>Tokenomics & Staking Overview</li>
+                <li>Regulatory & Compliance Framework</li>
+                <li>One Pager Summary</li>
               </ul>
 
-              <Link href="/NdeipiCoin_White_Paper.pdf" className="btn">
-                Download Doc
+              <Link href="/AfroGoldDollar_Whitepaper.pdf" className="btn">
+                Download Whitepaper
               </Link>
             </div>
           </div>
@@ -46,3 +55,4 @@ const WhitePaper = () => {
 };
 
 export default WhitePaper;
+

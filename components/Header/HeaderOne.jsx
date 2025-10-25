@@ -96,8 +96,8 @@ const HeaderOne = () => {
                   <div className="logo">
                     <Link href={"/"}>
                       <img
-                        src={"/img/ndeipicoin-logo-transparent.png"}
-                        alt="NdeipiCoin Logo"
+                        src={"/img/afrogolddollar-logo.png"}
+                        alt="Afro Gold Dollar Logo"
                         width={"80px"}
                         height={"80px"}
                       />
@@ -157,7 +157,7 @@ const HeaderOne = () => {
                     <ul>
                       <li className={"header-btn"}>
                         <Link
-                          href="https://uzx.com/#/exchange/ndeipi_usdt"
+                          href="https://www.bitmart.com/en-US/trade/GIFT_USDT"
                           className="btn"
                         >
                           Buy Now

@@ -8,33 +8,31 @@ const WhoWeAre = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="about-img wow fadeInLeft" data-wow-delay=".2s">
-              <img src={"/img/ndeipicoin-logo-transparent.png"} alt="" />
-              <img
-                src={"/img/images/about_img02.png"}
-                alt=""
-                className="img-two"
-              />
+              <img src={"/img/afrogolddollar-logo.png"} alt="Afro Gold Dollar Logo" />
             </div>
           </div>
           <div className="col-lg-6">
             <div className="about-content wow fadeInRight" data-wow-delay=".2s">
               <div className="section-title mb-30">
-                <span className="sub-title">Who we are</span>
+                <span className="sub-title">Who We Are</span>
                 <h2 className="title">
-                  The community's <span>1st Utility Token</span> that's linked
-                  to Ndeipi Ecosystem.
+                  Africa’s <span>Gold-Backed Digital Currency</span>
                 </h2>
               </div>
               <p>
-                NdeipiCoin is Ndeipi's native cryptocurrency. It is used for
-                network operations, transactions, games or collectibles
-                built on Ndeipi.
+                The <strong>Afro Gold Dollar</strong> is a tokenized gold-backed currency 
+                built on Polygon, bridging real-world value and blockchain liquidity. 
+                Each coin represents verifiable gold reserves sourced from African mines, 
+                empowering holders to stake, trade, or redeem physical gold directly 
+                through the Ndeipi ecosystem.
               </p>
-              <Link
-                href="https://uzx.com/#/exchange/ndeipi_usdt"
-                className="btn"
-              >
-                Purchase Tokens
+              <p>
+                Stake your gold and earn <strong>NdeipiCoin</strong> — turning your 
+                wealth into a yield-generating digital asset, redefining 
+                Africa’s role in the global financial renaissance.
+              </p>
+              <Link href="https://afrogolddollar.com" className="btn">
+                Buy Afro Gold Dollar
               </Link>
             </div>
           </div>
@@ -45,3 +43,4 @@ const WhoWeAre = () => {
 };
 
 export default WhoWeAre;
+
